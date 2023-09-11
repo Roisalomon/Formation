@@ -1,0 +1,58 @@
+/* 
+.wrapper {
+    background-color: green; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.wrapper div{
+    background-color: red;
+}
+.wrapper .one {
+    background-color: blue;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.two {
+    background-color: darkgoldenrod;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+.three {
+    background-color: olivedrab;
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+.four {
+    background-color: hotpink;
+    grid-column: 3;
+    grid-row: 3;
+}
+.five {
+    background-color: indigo;
+    grid-column: 2;
+    grid-row: 4;
+}
+.six {
+    background-color: red;
+    grid-column: 3;
+    grid-row: 4;
+    } */
+
+
+  
+    .future{
+        
+    }
+    .corps{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+    }
+    .element{
+        display: grid;
+        grid-template-columns:30px 1fr;
+       
+    }
+   
